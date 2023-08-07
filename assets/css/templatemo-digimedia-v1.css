@@ -1401,6 +1401,7 @@ Services Style
 }
 
 .services .naccs .menu div .thumb {
+
   display: inline-block;
   width: 100%;
   padding: 30px 0px;
@@ -1451,6 +1452,7 @@ Services Style
 }
 
 .services .nacc .thumb h4 {
+  align-items: center;
   color: #2a2a2a;
   font-size: 20px;
   font-weight: 700;
@@ -1459,16 +1461,18 @@ Services Style
 }
 
 .services .nacc .thumb .main-white-button {
-  text-align: right;
+  text-align: center;
   margin-top: 40px;
 }
 
 .services .nacc .thumb .main-white-button a {
+  align-items: center;
   background-color: #8d99af;
   color: #fff;
 }
 
 .services .nacc .thumb .main-white-button a i {
+  align-items: center;
   background-color: #fff;
   color: #8d99af;
 }
@@ -1628,6 +1632,7 @@ Portfolio
 }
 
 .portfolio-item .thumb {
+  align-items: center;
   position: relative;
   border-radius: 50px;
 }
@@ -1638,6 +1643,7 @@ Portfolio
 }
 
 .portfolio-item .thumb img {
+  align-items: center;
   border-top-right-radius: 23px;
   border-top-left-radius: 23px;
   overflow: hidden;
@@ -1739,6 +1745,7 @@ Blog
 }
 
 .blog-post .thumb img {
+  align-items: center;
   border-top-right-radius: 23px;
   border-top-left-radius: 23px;
 }
@@ -1809,12 +1816,14 @@ Blog
 }
 
 .post-item .thumb {
+  align-items: center;
   display: inline-block;
   float: left;
   margin-right: 30px;
 }
 
 .post-item .thumb img {
+  align-items: center;
   border-radius: 23px;
   display: inline-block;
 }
@@ -2154,6 +2163,7 @@ responsive
     display: inline-block;
   }
   .services .naccs .menu div .thumb {
+    align-items: center;
     padding: 5px;
   }
   .services .icon img {
@@ -2199,6 +2209,7 @@ responsive
     margin-bottom: 30px;
   }
   .post-item .thumb img {
+    align-items: center;
     max-width: 140px;
   }
   .post-item .right-content p {
@@ -2215,6 +2226,7 @@ responsive
 
 /* Agrega este estilo para controlar la imagen de hover */
 .thumb {
+  align-items: center;
   position: relative;
 }
 
@@ -2227,5 +2239,6 @@ responsive
 }
 
 .thumb:hover .hover-image {
+  align-items: center;
   opacity: 1;
 }
