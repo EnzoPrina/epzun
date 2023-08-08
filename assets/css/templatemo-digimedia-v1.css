@@ -877,6 +877,36 @@ header
   }
 }
 
+
+
+
+/* Estilos para el div de dos columnas */
+.column-container {
+  display: flex;
+  background-color: #6610f2;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+  height: 100vh; /* Altura del viewport */
+}
+
+.column {
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center; /* Centra el contenido del texto */
+}
+
+.column p {
+  margin: 0; /* Elimina margen predeterminado del párrafo */
+}
+
+.column img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+
 /* 
 ---------------------------------------------
 preloader
