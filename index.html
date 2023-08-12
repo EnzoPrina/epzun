@@ -343,7 +343,7 @@
   </div>
 
   
-  <div id="free-quote" class="free-quote">
+  <!-- <div id="free-quote" class="free-quote">
     <div class="container">
       <div class="row">
         <div class="col-lg-4 offset-lg-4">
@@ -376,7 +376,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
 
 
   <div id="portfolio" class="our-portfolio section">
@@ -556,7 +556,8 @@
           </div>
         </div>
         <div class="col-lg-12 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.25s">
-          <form id="contact" action="" method="post">
+          <form id="contact"   action="https://formspree.io/f/myyqejqa"
+          method="POST">
             <div class="row">
               <div class="col-lg-12">
                 <div class="contact-dec">
@@ -639,12 +640,39 @@
 
 
   <!-- Scripts -->
+  <script>
+    
+const $form = document.querySelector('#form')
+
+$form.addEventListener('submit', handleSubmit)
+
+    async function handleSubmit(event) {
+    event.preventDefault()
+    const form = new FormData(this)
+    const response = await fetch(this.action, {
+          method: this.method,
+          body: form,
+          headers: {
+            'Accept': 'application/json'
+          }
+        })
+        if (response.ok)  {
+          this.reset()
+          alert('Obrigado por entrar em contacto connosco! Vamos analisar o seu pedido e em breve iremos responder-lhe.')
+        }
+}
+
+
+
+// {}  =
+  </script>
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/js/owl-carousel.js"></script>
   <script src="assets/js/animation.js"></script>
   <script src="assets/js/imagesloaded.js"></script>
   <script src="assets/js/custom.js"></script>
+
 
 </body>
 </html>
