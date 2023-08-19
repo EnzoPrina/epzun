@@ -1,4 +1,7 @@
 @charset "UTF-8";
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
 /*!
  * Bootstrap Reboot v4.1.3 (https://getbootstrap.com/)
  * Copyright 2011-2018 The Bootstrap Authors
@@ -28,7 +31,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", "Arial";
+  font-family: 'Poppins', "Segoe UI", "Helvetica Neue", "Arial";
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.6;
@@ -133,7 +136,8 @@ pre,
 code,
 kbd,
 samp {
-  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-family: 'Poppins', sans-serif;
+  /* font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; */
   font-size: 1em; }
 
 pre {
@@ -272,12 +276,6 @@ template {
 [hidden] {
   display: none !important; }
 
-/*!
- * Bootstrap v4.1.3 (https://getbootstrap.com/)
- * Copyright 2011-2018 The Bootstrap Authors
- * Copyright 2011-2018 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
 :root {
   --blue: #7832e2;
   --indigo: #502c6c;
@@ -314,8 +312,9 @@ template {
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
-  --font-family-sans-serif: "Source Sans Pro", "Segoe UI", "Helvetica Neue", "Arial";
-  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
+
+  --font-family-sans-serif: 'Poppins', "Helvetica Neue", "Arial";
+  --font-family-monospace: 'Poppins', "Helvetica Neue", "Arial"; }
 
 *,
 *::before,
@@ -323,7 +322,7 @@ template {
   box-sizing: border-box; }
 
 html {
-  font-family: sans-serif;
+  font-family: 'Poppins', sans-serif;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -338,7 +337,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", "Arial";
+  font-family: 'Poppins', sans-serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.6;
@@ -442,7 +441,7 @@ pre,
 code,
 kbd,
 samp {
-  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-family: 'Poppins', sans-serif;
   font-size: 1em; }
 
 pre {
@@ -590,7 +589,8 @@ h1, h2, h3, h4, h5, h6,
   color: inherit; }
 
 h1, .h1 {
-  font-size: 2.5rem; }
+  font-size: 2.5rem; 
+font-weight: 900;}
 
 h2, .h2 {
   font-size: 2rem; }
@@ -1036,7 +1036,7 @@ font-family: 'Poppins', sans-serif;
     }
     
     .header-area .main-nav .nav li.submenu:after {
-      font-family: FontAwesome;
+      font-family: 'Poppins', sans-serif;
       content: "\f107";
       font-size: 12px;
       color: #2a2a2a;
@@ -5614,7 +5614,7 @@ button.close {
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", "Arial";
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.6;
@@ -5699,7 +5699,7 @@ button.close {
   z-index: 1060;
   display: block;
   max-width: 276px;
-  font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", "Arial";
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.6;
@@ -8102,8 +8102,8 @@ button.bg-lightblue:focus {
   .mx-xl-auto {
     margin-left: auto !important; } }
 
-.text-monospace {
-  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
+.text-monospace { 
+  font-family: 'Poppins', sans-serif; }
 
 .text-justify {
   text-align: justify !important; }
@@ -9485,7 +9485,7 @@ body {
   top: 69.75px; }
 
 .secondfont, .navbar-brand {
-  font-family: "Playfair Display", "Segoe UI", "Helvetica Neue", "Arial"; }
+  font-family: 'Poppins', sans-serif; }
 
 img {
   max-width: 100%; }
@@ -9549,7 +9549,7 @@ a.text-dark:hover {
   border-radius: 30px !important; }
 
 .btn {
-  font-family: Source Sans Pro;
+  font-family: 'Poppins', sans-serif;
   padding: 0.45rem 1.2rem;
   font-size: 1rem;
   line-height: 1.6;
@@ -10032,7 +10032,7 @@ ol.list-featured li:before {
   font-weight: bold;
   font-size: 3rem;
   margin-right: 0.5rem;
-  font-family: 'Abril Fatface', serif;
+  font-family: 'Poppins', sans-serif;
   line-height: 1; }
 
 @media (min-width: 768px) {
@@ -10040,8 +10040,8 @@ ol.list-featured li:before {
     z-index: 1111; } }
 
 article {
-  font-family: "sans-serif", "Georgia";
-  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
   line-height: 1.7; }
   article p, article pre, article figure, article img, article blockquote, article iframed, article embed {
     margin-bottom: 2rem; }
@@ -10052,7 +10052,7 @@ article {
     position: relative; }
   article blockquote:before {
     content: "“";
-    font-family: Georgia;
+    font-family: 'Poppins', sans-serif;
     font-size: 8rem;
     margin: -1rem 2rem 0 -3.9rem;
     position: absolute;
