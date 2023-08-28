@@ -127,7 +127,7 @@ p {
   font-size: 15px;
   line-height: 30px;
   font-weight: 300;
-  color: #afafaf;
+  color: #f6f0ff;
 }
 
 img {
@@ -339,10 +339,10 @@ header
 */
 
 .pre-header {
-  background-color: #6610f2;
+  background-color: #000000d0;
   color: white;
-  height: 60px;
-  padding: 15px 0px;
+  height: 40px;
+  padding: 10px 0px;
 }
 
 .pre-header ul li {
@@ -377,12 +377,13 @@ header
 }
 
 .pre-header ul.social-media li a {
+  padding-top: -5px;
   background-color: #fff;
   color: #6610f2;
   display: inline-block;
-  width: 30px;
-  height: 30px;
-  line-height: 30px;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
   text-align: center;
   border-radius: 50%;
   font-size: 14px;
@@ -883,6 +884,9 @@ preloader
 --------------------------------------------- 
 */
 
+
+
+
 .js-preloader {
     position: fixed;
     top: 0;
@@ -987,16 +991,21 @@ Banner Style
 
 .main-banner {
   background-repeat: no-repeat;
-  background-position: center center;
+/* background-position: center center; */
   background-size: cover;
-  padding: 226px 0px 120px 0px;
-  position: relative;
+  padding: 100px 0px 120px 0px;
+ /* position: relative; */
   overflow: hidden;
+}
+
+.background-imagen{
+  background-image: url(../images/fondo-11.jpg);
+  background-size: cover;
 }
 
 .main-banner:after {
   content: '';
-  background-image: url(../images/slider-left-dec.jpg);
+ /* background-image: url(../images/slider-left-dec.jpg); */
   background-repeat: no-repeat;
   position: absolute;
   left: 0;
@@ -1008,7 +1017,7 @@ Banner Style
 
 .main-banner:before {
   content: '';
-  background-image: url(../images/slider-right-dec.jpg);
+ /* background-image: url(../images/slider-right-dec.jpg); */
   background-repeat: no-repeat;
   position: absolute;
   right: 0;
@@ -1026,7 +1035,7 @@ Banner Style
   text-transform: capitalize;
   font-size: 20px;
   font-weight: 700;
-  color: #6610f2;
+  color: #ffffff;
   margin-bottom: 15px;
   text-transform: uppercase;
 }
@@ -1036,7 +1045,7 @@ Banner Style
   position: relative;
   font-weight: 700;
   font-size: 50px;
-  color: #2a2a2a;
+  color: #ffffff;
   margin-bottom: 20px;
 }
 
